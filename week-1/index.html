@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Launchpad — a static learning hub built with HTML and CSS for YuvaIntern Week 1.">
+  <title>Launchpad | Make your first idea real</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#home" aria-label="Launchpad home"><span class="brand-icon" aria-hidden="true">↗</span> launchpad<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#tracks">Learning tracks</a><a href="#process">How it works</a><a class="nav-cta" href="#about">About this project <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> SMALL STEPS. REAL SKILLS.</p>
+        <h1 id="hero-title">Make your<br>first idea<br><em>real.</em></h1>
+        <p class="intro">Start with curiosity. Build with purpose. Explore practical learning tracks that turn a blank page into something you can be proud of.</p>
+        <a class="button" href="#tracks">Explore the tracks <span aria-hidden="true">↗</span></a>
+        <p class="hero-note">Made for beginners. Built around practice.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="An illustrated project board showing the steps plan, build and share around a first website preview">
+        <div class="art-grid"></div><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+        <span class="art-tag">YOUR NEXT CHAPTER</span>
+        <div class="mock-browser"><div class="browser-bar"><span>● ● ●</span><span>my-first-website</span></div><div class="mock-body"><span class="mini-label">HELLO, WORLD.</span><div class="mock-heading">Big ideas.<br>Small beginnings.</div><div class="mock-lines"><i></i><i></i></div><span class="mock-button">Let's build ↗</span><div class="mini-grid"><span></span><span></span><span></span></div></div></div>
+        <div class="art-sticker">&lt;/&gt;</div><span class="step-tag step-plan">01 / Plan</span><span class="step-tag step-build">02 / Build</span><span class="step-tag step-share">03 / Share</span>
+        <span class="art-caption">A little progress, every day.</span>
+      </div>
+    </section>
+    <div class="principles"><div class="wrap principles-inner"><span>LEARN BY DOING</span><span aria-hidden="true">✳</span><span>BUILD AT YOUR PACE</span><span aria-hidden="true">✳</span><span>START SOMETHING GOOD</span></div></div>
+    <section class="tracks wrap section" id="tracks" aria-labelledby="tracks-title">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR STARTING POINT</p><h2 id="tracks-title">One track. A new possibility.</h2></div><p>Pick a skill that sparks your interest.<br>Start with the fundamentals.</p></div>
+      <div class="track-grid">
+        <article class="track-card"><div class="card-top"><span class="track-icon lavender" aria-hidden="true">&lt;/&gt;</span><span class="level">BEGINNER</span></div><h3>Web foundations</h3><p>Give your ideas a home on the web. Learn to structure a page and bring it to life with thoughtful styling.</p><ul class="chips" aria-label="Web foundation skills"><li>HTML</li><li>CSS</li><li>Layouts</li></ul><div class="card-bottom"><span>01 / Build a webpage</span><a href="#web-project" aria-label="View web foundations project">↗</a></div></article>
+        <article class="track-card"><div class="card-top"><span class="track-icon peach" aria-hidden="true">Aa</span><span class="level">BEGINNER</span></div><h3>Design essentials</h3><p>Make every detail count. Explore visual hierarchy, considered spacing, and colors that work together.</p><ul class="chips" aria-label="Design skills"><li>Type</li><li>Color</li><li>Wireframes</li></ul><div class="card-bottom"><span>02 / Shape an idea</span><a href="#design-project" aria-label="View design essentials project">↗</a></div></article>
+        <article class="track-card"><div class="card-top"><span class="track-icon green" aria-hidden="true">↗</span><span class="level">BEGINNER</span></div><h3>Project storytelling</h3><p>Show the thinking behind your work. Document your choices and turn a small project into a clear story.</p><ul class="chips" aria-label="Storytelling skills"><li>Writing</li><li>Structure</li><li>Reflection</li></ul><div class="card-bottom"><span>03 / Tell your story</span><a href="#story-project" aria-label="View project storytelling exercise">↗</a></div></article>
+      </div>
+    </section>
+    <section class="process-section" id="process" aria-labelledby="process-title"><div class="wrap section"><p class="eyebrow">FROM CURIOUS TO CAPABLE</p><h2 id="process-title">Good work starts with a simple plan.</h2><ol class="process-grid"><li id="design-project"><span class="step-number">01</span><h3>Sketch the idea</h3><p>Arrange the header, content, and footer in a wireframe. Give every section a clear purpose.</p></li><li id="web-project"><span class="step-number">02</span><h3>Build the page</h3><p>Use HTML for meaning and CSS for presentation. Check the layout on wide and narrow screens.</p></li><li id="story-project"><span class="step-number">03</span><h3>Share the thinking</h3><p>Explain the design decisions, record the challenges, and share the finished project.</p></li></ol></div></section>
+    <section class="about wrap section" id="about" aria-labelledby="about-title"><div><p class="eyebrow">A FOUNDATION TO BUILD ON</p><h2 id="about-title">Every great project<br>starts somewhere.</h2></div><div><p>Launchpad is a concept learning hub created for the YuvaIntern Week 1 frontend assignment. An original wireframe becomes a static webpage through semantic HTML, organized CSS, and basic responsive layouts.</p><p class="about-note">A student concept project by Yash. Learning tracks are illustrative; this page does not offer course enrollment.</p><a class="text-link" href="wireframe.svg">View the original wireframe <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="#home">launchpad.</a><p>YuvaIntern · Week 1 · HTML &amp; CSS</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
