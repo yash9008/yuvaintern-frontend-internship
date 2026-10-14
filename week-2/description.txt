@@ -1,0 +1,9 @@
+This Week 2 submission presents Launchpad Journal, an independent responsive webpage created for the YuvaIntern Frontend Web Developer internship. The objective is to demonstrate a website that adapts to desktop, tablet, and smartphone viewports through semantic HTML, organized CSS, flexible grids, fluid images, and media queries.
+
+The webpage includes a visible navigation area, a hero section, illustrated learning cards, a four-step practice plan, an expandable field guide, and a footer. The HTML uses meaningful elements such as header, nav, main, section, article, figure, and footer. The field guide uses native details and summary elements, allowing readers to expand notes without JavaScript.
+
+The CSS follows a mobile-first approach. The base layout displays content in a single column. At 640 pixels, the cards and practice steps use two columns. At 880 pixels, the hero and field guide become split layouts. At 1040 pixels, the cards use three columns and the practice plan uses four. CSS Grid and Flexbox organize the content, while clamp-based typography and spacing scale smoothly. Local SVG illustrations use flexible widths and automatic heights to preserve their proportions.
+
+Browser validation covered thirteen widths from 320 to 1920 pixels, including values immediately before and at each breakpoint. The checks confirmed the expected column changes, loaded images, working section links, and no horizontal overflow. Keyboard checks verified the skip link and expandable guide. Desktop, tablet, and phone screenshots document the layout changes.
+
+The report explains the design strategy, responsive techniques, implementation challenges, and validation results. This submission contains only the Week 2 frontend project and its supporting documentation.
