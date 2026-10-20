@@ -1,0 +1,9 @@
+This Week 3 submission enhances Launchpad Journal with interactive features using plain JavaScript for the YuvaIntern Frontend Web Developer internship. The project builds on the responsive HTML and CSS webpage from Week 2 and demonstrates DOM manipulation, event handling, form validation, and dynamic content updates without a framework.
+
+The learning shelf now supports live search, topic selection, and a saved-notes filter. These controls work together to display matching cards and update the visible result count. Readers can save or remove notes, and the reading-list count and button states update immediately. The list is stored in the current browser when storage is available. If storage is blocked or saved data cannot be read, the page explains the limitation and remains usable.
+
+A responsive navigation menu uses a JavaScript-controlled toggle on phones, supports Escape dismissal, and resets its state when the viewport changes. Selecting a learning card opens the corresponding field-guide note and moves keyboard focus to its summary.
+
+The learning-plan form validates the learner name, focus topic, available time, and a short practice goal. Invalid submissions show field messages and focus the first error. A valid submission generates a session plan with reading, building, and reflection time. Users can edit the existing draft or reset the form. User-entered text is inserted as text content rather than interpreted as HTML, and no form information is sent to a server.
+
+Verification includes eight logic tests, twelve browser workflow groups, and ten responsive widths from 320 to 1440 pixels. The report documents implementation decisions, storage recovery, keyboard behavior, and testing limits. The package includes HTML, CSS, JavaScript, local assets, documentation, tests, and screenshots, with scope limited to Week 3.
