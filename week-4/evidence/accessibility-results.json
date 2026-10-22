@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-22",
+  "checks": [
+    "First Tab exposes skip link; Enter focuses main; next Tab reaches main content",
+    "Keyboard menu link closes menu and transfers focus to destination heading",
+    "Breakpoint changes recover focus from hidden desktop links and phone toggle",
+    "Search does not replace save-button DOM",
+    "Reduced motion disables smooth scroll, button transitions, and plan reveal",
+    "Forced-colors preference retains a visible focus outline",
+    "Axe reports zero violations in desktop, invalid form, generated plan, and mobile-menu states",
+    "At 320px and 200% root text size, generated plan, form, and expanded guide have no horizontal overflow",
+    "Without JavaScript the skip link focuses main and all navigation remains visible",
+    "Measured text, button, error, and control-boundary colors meet their contrast thresholds"
+  ],
+  "ratios": [
+    {
+      "name": "Body ink on paper",
+      "ratio": 14.19,
+      "minimum": 4.5
+    },
+    {
+      "name": "Muted text on darkest section",
+      "ratio": 5.14,
+      "minimum": 4.5
+    },
+    {
+      "name": "Button white on purple",
+      "ratio": 7.16,
+      "minimum": 4.5
+    },
+    {
+      "name": "Input boundary on white",
+      "ratio": 3.72,
+      "minimum": 3
+    },
+    {
+      "name": "Error text on white",
+      "ratio": 6.6,
+      "minimum": 4.5
+    }
+  ],
+  "scans": [
+    {
+      "state": "desktop form",
+      "violations": [],
+      "incomplete": [],
+      "passes": 47
+    },
+    {
+      "state": "invalid form",
+      "violations": [],
+      "incomplete": [],
+      "passes": 47
+    },
+    {
+      "state": "generated plan",
+      "violations": [],
+      "incomplete": [],
+      "passes": 47
+    },
+    {
+      "state": "open mobile menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              "#menu-toggle > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 47
+    }
+  ]
+}

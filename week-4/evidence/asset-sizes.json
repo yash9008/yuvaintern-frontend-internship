@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "file": "index.html",
+      "beforeBytes": 13520,
+      "afterBytes": 13788,
+      "beforeSha256": "09053bdfb0182a6cd805da409c181c7eb7c38ab3cbf27246ee83927523777a5c",
+      "afterSha256": "b290a40e824ae0ba5cb2b2122b1018da651f04d6e255793064546b218f629110"
+    },
+    {
+      "file": "styles.css",
+      "beforeBytes": 14977,
+      "afterBytes": 12652,
+      "beforeSha256": "f86dea531e58c1237ff34f5535cc0c02a9358ff0eccb715a9a78246ec121a399",
+      "afterSha256": "b7bf6c1d86d09fbc589967759e12aa65faa9da8938c6fbb489f0fdb3977ca0c0"
+    },
+    {
+      "file": "script.js",
+      "beforeBytes": 9913,
+      "afterBytes": 6478,
+      "beforeSha256": "295550e5693f518e39003419ca24952e9d9899ae1d665319d4c8320338d2735e",
+      "afterSha256": "30f68b4fc4ade1e32b37f2552aab71943c97b2dc098932485ff475eba4643e72"
+    },
+    {
+      "file": "assets/favicon.svg",
+      "beforeBytes": 241,
+      "afterBytes": 240,
+      "beforeSha256": "144116a574ccd71a82a14a7fb4b2309ac08965d819c5286a0f51f977acbf0db4",
+      "afterSha256": "4637348692caf0e339f16b2379bdb2fdf8eb59797241104f71b318c20eab246e"
+    },
+    {
+      "file": "assets/grids.svg",
+      "beforeBytes": 1087,
+      "afterBytes": 1075,
+      "beforeSha256": "f061315f05d52b092e66c01c62946c483681d4e8146ff91c82c7baf91d1c53c4",
+      "afterSha256": "e47e6b9e2bd33cd9b356c3482ae70c559642c133320ac793030c9da62e7b4d09"
+    },
+    {
+      "file": "assets/images.svg",
+      "beforeBytes": 902,
+      "afterBytes": 880,
+      "beforeSha256": "686123e62667b660deb44ec254ece08d2b1b792f42b67eff82f8b94196fd46fd",
+      "afterSha256": "d83e2ec32042d1968d64e1f954f5def7a117298874e96e3d090dc0b20689722e"
+    },
+    {
+      "file": "assets/screens.svg",
+      "beforeBytes": 1143,
+      "afterBytes": 1134,
+      "beforeSha256": "82eaf96054f2f7ab63bb36c805e371c12dfffdd152d77d21b1150cbdb6b47a88",
+      "afterSha256": "d9f284d22d3cf6e7d0a6d10a3ea37fcd1114935f4d5ee34d80efbf6e106fe5a5"
+    },
+    {
+      "file": "assets/workspace.svg",
+      "beforeBytes": 3144,
+      "afterBytes": 3076,
+      "beforeSha256": "38fb877e2609f1f0595882a3bdaa3cf8764e062a9b9420f0cc29e9253174b050",
+      "afterSha256": "986d122f1a3f8ff6401fa98c062be5201acd02731dedc29063c16d81812a993a"
+    }
+  ],
+  "beforeTotal": 44927,
+  "afterTotal": 39323,
+  "scope": "Uncompressed UTF-8 file sizes, HTML + CSS + JS + 5 SVGs; excludes docs, source copies, tests, dependencies, and HTTP headers."
+}
