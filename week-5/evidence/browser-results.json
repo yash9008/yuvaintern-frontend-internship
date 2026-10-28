@@ -1,0 +1,65 @@
+{
+  "navigationChecks": [
+    "Route #/notes: same-document navigation, URL, title, focus and menu state",
+    "Route #/guide: same-document navigation, URL, title, focus and menu state",
+    "Route #/plan: same-document navigation, URL, title, focus and menu state",
+    "Route #/: same-document navigation, URL, title, focus and menu state",
+    "Back and forward buttons move between views with no reload",
+    "Deep links open the routed view with URL state and focus",
+    "Library filters update the URL without flooding browser history",
+    "Reading-list state survives reload, refused writes stay usable",
+    "Blocked dynamic content shows an explained failure and real retry recovery",
+    "Unknown addresses get a safe not-found view that keeps the URL",
+    "Legacy Week 3/4 anchors normalize to routes without extra history",
+    "Scroll positions are saved per entry and restored on back",
+    "Plan form validates, keeps drafts on edit, and renders input as text only",
+    "Mobile menu opens, closes on Escape, navigates and collapses after choosing",
+    "Ten viewport widths show no horizontal overflow and correct menu states",
+    "Corrupted saved data recovers without breaking the view"
+  ],
+  "widthChecks": [
+    {
+      "width": 320,
+      "result": "pass"
+    },
+    {
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "width": 639,
+      "result": "pass"
+    },
+    {
+      "width": 640,
+      "result": "pass"
+    },
+    {
+      "width": 699,
+      "result": "pass"
+    },
+    {
+      "width": 700,
+      "result": "pass"
+    },
+    {
+      "width": 768,
+      "result": "pass"
+    },
+    {
+      "width": 880,
+      "result": "pass"
+    },
+    {
+      "width": 1040,
+      "result": "pass"
+    },
+    {
+      "width": 1440,
+      "result": "pass"
+    }
+  ],
+  "pageErrors": [],
+  "verifiedDate": "2026-10-28",
+  "browser": "Helium Chromium"
+}

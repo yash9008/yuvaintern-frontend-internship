@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "url": "http://127.0.0.1:8025/",
+  "profile": "Lighthouse default mobile, simulated throttling; local Python HTTP server; no compression",
+  "runs": [
+    {
+      "run": 1,
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 750.9359999999999,
+        "largest-contentful-paint": 1351.404,
+        "speed-index": 750.9359999999999,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.1382344961011691
+      }
+    },
+    {
+      "run": 2,
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 750.642,
+        "largest-contentful-paint": 1350.963,
+        "speed-index": 750.642,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.1382344961011691
+      }
+    },
+    {
+      "run": 3,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 750.596,
+        "largest-contentful-paint": 1350.894,
+        "speed-index": 750.596,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0
+      }
+    }
+  ]
+}

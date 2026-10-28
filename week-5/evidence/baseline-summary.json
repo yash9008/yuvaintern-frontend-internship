@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "url": "http://127.0.0.1:8026/tests/fixtures/week-3/",
+  "profile": "Lighthouse default mobile, simulated throttling; local Python HTTP server; no compression",
+  "runs": [
+    {
+      "run": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 951.738,
+        "largest-contentful-paint": 1176.7379999999998,
+        "speed-index": 951.738,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0
+      }
+    },
+    {
+      "run": 2,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 900.904,
+        "largest-contentful-paint": 1125.904,
+        "speed-index": 900.904,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0
+      }
+    },
+    {
+      "run": 3,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 951.9190000000001,
+        "largest-contentful-paint": 1101.919,
+        "speed-index": 951.9190000000001,
+        "total-blocking-time": 0.5,
+        "cumulative-layout-shift": 0
+      }
+    }
+  ]
+}

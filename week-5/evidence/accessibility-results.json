@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    "First Tab exposes the skip link; Enter focuses the main region",
+    "Keyboard menu link closes the menu and transfers focus to the routed view heading",
+    "Breakpoint changes recover focus from hidden desktop links and the phone toggle",
+    "Guide details open by keyboard and reveal their content",
+    "Search does not replace save-button DOM inside the routed view",
+    "Reduced motion disables smooth scroll, view transitions, and button transitions",
+    "Reduced motion also disables the plan result reveal; focus reaches the result",
+    "Forced-colors preference retains a visible focus outline",
+    "Axe reports zero violations in plan result, plan form, invalid form, home, and mobile-menu states",
+    "At 320px and 200% root text size, notes, expanded guide, plan form, and home have no horizontal overflow",
+    "Without JavaScript the skip link focuses main and the noscript note explains the SPA shell",
+    "Measured text, button, error, and control-boundary colors meet their contrast thresholds"
+  ],
+  "ratios": [
+    {
+      "name": "Body ink on paper",
+      "ratio": 14.19,
+      "minimum": 4.5
+    },
+    {
+      "name": "Muted text on paper",
+      "ratio": 5.69,
+      "minimum": 4.5
+    },
+    {
+      "name": "Button white on purple",
+      "ratio": 7.16,
+      "minimum": 4.5
+    },
+    {
+      "name": "Input boundary on white",
+      "ratio": 3.72,
+      "minimum": 3
+    },
+    {
+      "name": "Error text on white",
+      "ratio": 6.6,
+      "minimum": 4.5
+    }
+  ],
+  "scans": [
+    {
+      "state": "plan result",
+      "violations": [],
+      "incomplete": [],
+      "passes": 36
+    },
+    {
+      "state": "plan form",
+      "violations": [],
+      "incomplete": [],
+      "passes": 39
+    },
+    {
+      "state": "invalid plan form",
+      "violations": [],
+      "incomplete": [],
+      "passes": 42
+    },
+    {
+      "state": "home view",
+      "violations": [],
+      "incomplete": [],
+      "passes": 36
+    },
+    {
+      "state": "open mobile menu over the home view",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              "#menu-toggle > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 37
+    }
+  ]
+}
